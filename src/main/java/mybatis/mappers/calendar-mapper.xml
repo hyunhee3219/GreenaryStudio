@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.ort//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+
+
+<mapper namespace="Calendar">
+  <resultMap id="calendarRM" type="ReservationVO">
+    <result property="re_date" column="re_date" />
+    <result property="re_room" column="re_room" />
+    <result property="re_time" column="re_time" />
+    <result property="user_id" column="user_id" />
+    <result property="re_num" column="re_num" />
+  </resultMap>
+	
+	<select id="calendarList" resultMap="calendarRM">
+		select * from re_info
+	</select>
+	
+</mapper>

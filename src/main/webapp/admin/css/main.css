@@ -1,0 +1,134 @@
+html {
+    height: 100%;
+}
+
+body {
+    min-height: 100vh;
+}
+
+.contents{
+    padding: 5px 30px 0px 30px;
+}
+
+.sidebar {
+	box-shadow: 1px 0px 8px rgba(0,0,0,0.1);
+    background: rgba(0,0,0,0.01);
+    margin: 0px 30px 0px -30px;
+    padding: 0px 30px;
+    min-height: 100vh;
+}
+
+.grid {
+	display: grid;
+}
+
+.btn{
+	font-weight: bold;
+}
+
+h1{
+	    font-size: 2rem;
+    font-weight: bold;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+h2 {
+	font-size: 1.5rem;
+    font-weight: bold;
+    margin-top: 1.3rem;
+    margin-bottom: 1rem;
+}
+	
+a {
+	color: navy;
+	text-decoration: none;
+	word-wrap: break-word;
+}
+
+a:hover{
+    animation: hovergradation 5s infinite;
+}
+
+@keyframes hovergradation {
+     0% {color: cyan;}
+     33.33333% {color: magenta;}
+     66.66667% {color: yellow;}
+     100% {color: cyan;}
+}
+
+label {
+	line-height: 2.0;
+	font-weight: bold;
+	width: 130px;
+	display: inline-block;
+}
+
+.form-control{
+	display: inline;
+	width: auto;
+}
+
+.form-select{
+	display: inline;
+	width: auto;
+}
+
+.done {
+border: 1px solid rgb(0, 200, 0);
+}
+
+.false {
+border: 1px solid red;
+}
+
+.notice{
+	 font-size: 0.8rem; 
+	 color: #aaa; 
+}
+
+.item{
+	margin-bottom: 5px;
+}
+
+.addressdiv {
+    display: inline-block;
+    text-align: left;
+    width: 100px;
+    margin-left: 6px;
+}
+
+table {
+	width: 100%;
+	display: table;
+    border-collapse : collapse;
+	font-size: 0.9rem;
+	padding-bottom: 50px;
+}
+
+table td {
+	padding: 5px 10px;
+	border: 0.5px solid #ccc;
+	background-color: white;
+}
+
+table th {
+	border-radius: 10px 10px 0px 0px;
+	padding: 5px 10px;
+	border: 0.5px solid white;
+	background-color: #ccc;
+	text-align: center;
+}
+
+.imgbtn{
+	cursor: pointer;
+}
+
+.infobtn{
+width: 16px;
+height: 16px;
+}
+
+.detailSearchCount{
+	display: inline;
+	line-height: 2.5;
+}
